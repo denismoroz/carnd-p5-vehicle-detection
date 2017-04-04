@@ -101,7 +101,7 @@ That helped to recude number of windows that should be checked.
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
 
-Here's a [link to my video result](./project_video_output.mp4) and [Youtube version](https://youtu.be/kL2rU8shZtk)
+Here's a [link to my video result](./project_video_output.mp4) and [Youtube version](https://youtu.be/T7QveuB8CT4)
 
 Detected car shown with blue box. Red box - region of interest. Green boxes - results of detection by linear SVM.
 
@@ -120,7 +120,7 @@ On the next set of pictures seen these steps. Blue boxes are detected vehicles a
 ![alt_text][region_of_interest]
 
 Also a different treshold for heatmap during full search and region of interest search.
-Full search heatmap treshold = 2 and region of interest search treshold = 1.
+Full search heatmap treshold = 3 and region of interest search treshold = 2.
 
 Using this algorithm allows to speedup processing for project_video_output.mp4 from 8mins to 2m 55sec.
   
